@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_patient_registration"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.medpharm.PatientRegistration"><LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/darkT"
+        app:titleTextColor="@color/white"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:title="Patient Registration" />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:text="Name of Patient:"
+        android:fontFamily="@font/aref_ruqaa"
+        android:textSize="20dp"
+        />
+
+    <EditText
+        android:id="@+id/pharm_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/textView"
+        android:ems="10"
+        android:padding="5dp"
+        android:layout_marginRight="15dp"
+        android:inputType="textPersonName"
+        android:layout_toRightOf="@+id/textView"
+        android:layout_toEndOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="24dp"
+        android:layout_below="@id/textView"
+        android:text="Address:"
+        android:fontFamily="@font/aref_ruqaa"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/pharm_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/textView5"
+        android:ems="10"
+        android:layout_below="@id/pharm_name"
+        android:padding="5dp"
+        android:layout_marginRight="15dp"
+        android:inputType="textPostalAddress"
+        android:layout_alignLeft="@+id/pharm_name"
+        android:layout_alignStart="@+id/pharm_name" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="24dp"
+        android:layout_marginRight="15dp"
+        android:layout_below="@id/textView5"
+        android:text="Phone:"
+        android:fontFamily="@font/aref_ruqaa"
+        android:textStyle="bold"
+        android:padding="5dp"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/pharm_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/pharm_add"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/textView1"
+        android:ems="10"
+        android:layout_marginRight="15dp"
+        android:padding="5dp"
+        android:inputType="phone"
+        android:layout_alignLeft="@+id/pharm_add"
+        android:layout_alignStart="@+id/pharm_add" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="24dp"
+        android:layout_below="@id/textView1"
+        android:text="Registration No:"
+        android:fontFamily="@font/aref_ruqaa"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:padding="5dp"/>
+
+    <EditText
+        android:id="@+id/pharm_reg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginRight="15dp"
+        android:layout_below="@id/pharm_phone"
+        android:inputType="number"
+        android:layout_alignTop="@+id/textView2"
+        android:layout_alignParentRight="true"
+        android:padding="5dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignLeft="@+id/pharm_phone"
+        android:layout_alignStart="@+id/pharm_phone" />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="24dp"
+        android:layout_below="@id/textView2"
+        android:text="Password:"
+        android:fontFamily="@font/aref_ruqaa"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/pharm_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_below="@id/pharm_reg"
+        android:inputType="textPassword"
+        android:layout_marginRight="15dp"
+        android:layout_alignBaseline="@+id/textView3"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:padding="5dp"
+        android:layout_alignLeft="@+id/pharm_reg"
+        android:layout_alignStart="@+id/pharm_reg" />
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="24dp"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:layout_below="@id/textView3"
+        android:text="Confirm Password:"
+        android:fontFamily="@font/aref_ruqaa"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/pharm_cpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/textView4"
+        android:ems="10"
+        android:layout_marginRight="15dp"
+        android:layout_below="@id/pharm_pass"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:inputType="textPassword"
+        android:layout_alignLeft="@+id/pharm_pass"
+        android:layout_alignStart="@+id/pharm_pass" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView6"
+        android:textColor="#ff0000"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView4"
+        android:layout_marginTop="50sp"
+        android:gravity="center_horizontal"
+        android:text="SUBMIT"
+        android:layout_marginLeft="150sp"
+        android:padding="5dp"
+        android:textSize="15dp"
+        android:onClick="Register"
+        android:textColor="@color/grayDD"
+        android:background="@drawable/mybutton"/>
+
+</LinearLayout>
+</ScrollView>

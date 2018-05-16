@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.medpharm.Preview">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/darkT"
+            app:titleTextColor="@color/white"
+            android:elevation="4dp"
+            android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            app:title="Preview" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="5dp"
+            android:text="Doctor's Name:"
+            android:fontFamily="@font/aref_ruqaa"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/doc_name"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="5dp"
+            android:text="Patient's Name:"
+            android:fontFamily="@font/aref_ruqaa"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/patient_name"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="5dp"
+            android:text="Patient Phone:"
+            android:fontFamily="@font/aref_ruqaa"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/patient_phone"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:text="Age/Sex:"
+            android:fontFamily="@font/aref_ruqaa"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            android:padding="5dp"
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold"
+            android:id="@+id/patient_age"
+            android:padding="5dp"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="5dp"
+            android:text="Date:"
+            android:fontFamily="@font/aref_ruqaa"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            android:padding="5dp"
+            android:id="@+id/date"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            android:text="R/"
+            android:fontFamily="@font/aref_ruqaa"
+            android:id="@+id/med"
+            android:padding="5dp"
+            android:textSize="20dp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            android:text="Diagnosis"
+            android:fontFamily="@font/aref_ruqaa"
+            android:id="@+id/diago"
+            android:padding="5dp"
+            android:textSize="20dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Edit Prescription"
+            android:padding="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="125dp"
+            android:textSize="15dp"
+            android:id="@+id/edit"
+            android:textColor="@color/grayDD"
+            android:background="@drawable/mybutton"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Send Prescription"
+            android:layout_marginTop="15dp"
+            android:padding="10dp"
+            android:layout_marginLeft="125dp"
+            android:textColor="@color/grayDD"
+            android:textSize="15dp"
+            android:id="@+id/send"
+            android:background="@drawable/mybutton"/>
+    </LinearLayout>
+
+</ScrollView>

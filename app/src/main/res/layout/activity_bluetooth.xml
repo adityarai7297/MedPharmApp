@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.example.android.medpharm.Bluetooth"
+    android:padding="10dp"
+    android:layout_marginTop="90dp">
+
+    <TextView
+        android:id="@+id/textView_FileName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Please select file"
+        android:fontFamily="@font/aref_ruqaa"
+        android:textColor="@color/turquois"
+        android:textSize="25dp" />
+
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/button_GetFile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="getFile"
+        android:text="Get file from device"
+        android:padding="10dp"
+        android:background="@drawable/mybutton"/>
+
+    <Button
+        android:id="@+id/button_SendFile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="sendViaBluetooth"
+        android:layout_marginTop="20dp"
+        android:text="Send via Bluetooth"
+        android:background="@drawable/mybutton"/>
+
+</LinearLayout>

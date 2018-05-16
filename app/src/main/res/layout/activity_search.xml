@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.medpharm.Search">
+
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/darkT"
+        app:titleTextColor="@color/white"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:title="Medicine Information" />
+
+    <TextView
+        android:id="@+id/nameTv"
+        android:layout_below="@id/my_toolbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name :"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:fontFamily="@font/abhaya_libre"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/medTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/nameTv"
+        android:layout_below="@id/my_toolbar"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/abhaya_libre"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="italic"/>
+
+
+    <TextView
+        android:id="@+id/genericTv"
+        android:layout_below="@id/nameTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Generic Alt.:"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:fontFamily="@font/abhaya_libre"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/genTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/genericTv"
+        android:layout_below="@id/nameTv"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/abhaya_libre"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="italic"/>
+
+
+    <TextView
+        android:id="@+id/sideeffectTv"
+        android:layout_below="@id/genericTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Side Effects :"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:fontFamily="@font/abhaya_libre"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/sideTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sideeffectTv"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/abhaya_libre"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:textStyle="italic"/>
+
+
+</RelativeLayout>

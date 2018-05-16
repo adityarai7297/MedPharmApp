@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.medpharm.SendPrescription">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#2ea596"
+            android:elevation="4dp"
+            android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            app:title="Prescription"
+            app:titleTextColor="@color/white"/>
+
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20dp"
+            android:text="Phone No:"
+            android:fontFamily="@font/aref_ruqaa"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/patient_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/textView"
+            android:ems="10"
+            android:layout_marginRight="15dp"
+            android:padding="5dp"
+            android:inputType="phone"
+            android:layout_alignLeft="@+id/patient_add"
+            android:layout_alignStart="@+id/patient_add" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20dp"
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:layout_below="@id/textView"
+            android:text="Name:"
+            android:fontFamily="@font/aref_ruqaa"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/patient_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:padding="5dp"
+            android:layout_marginRight="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/textView5"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:layout_alignLeft="@+id/patient_phone"
+            android:layout_alignStart="@+id/patient_phone" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20dp"
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:layout_below="@id/textView"
+            android:text="Age:"
+            android:fontFamily="@font/aref_ruqaa"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/patient_age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:padding="5dp"
+            android:layout_marginRight="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/textView5"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:layout_alignLeft="@+id/patient_phone"
+            android:layout_alignStart="@+id/patient_phone" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20dp"
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:layout_below="@id/textView"
+            android:text="Sex:"
+            android:fontFamily="@font/aref_ruqaa"
+            android:textSize="20dp" />
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/mf">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Male"
+                android:fontFamily="@font/aref_ruqaa"
+                android:id="@+id/m"
+                android:layout_marginLeft="35dp"
+                android:textSize="20dp"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Female"
+                android:fontFamily="@font/aref_ruqaa"
+                android:id="@+id/f"
+                android:layout_marginLeft="35dp"
+                android:textSize="20dp"/>
+        </RadioGroup>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="30dp"
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:layout_below="@id/textView"
+            android:text="Diagnosis:"
+            android:fontFamily="@font/aref_ruqaa"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/diag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/patient_name"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="24sp"
+            android:text="Add Medicine"
+            android:id="@+id/button"
+            android:padding="5dp"
+            android:layout_marginLeft="150dp"
+            android:textSize="15dp"
+            android:background="@drawable/mybutton"/>
+
+    </LinearLayout>
+
+</ScrollView>

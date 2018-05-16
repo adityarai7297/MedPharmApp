@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_login"
+            android:icon="@drawable/ic_person_add"
+            android:title="Account" />
+        <item
+            android:id="@+id/nav_prescription"
+            android:icon="@drawable/ic_pres"
+            android:title="Prescription"/>
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/ic_build_black_24dp"
+            android:title="Settings" />
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/ic_help"
+            android:title="Help"/>
+    </group>
+</menu>

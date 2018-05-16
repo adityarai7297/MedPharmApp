@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.medpharm.Prescription">
+
+    <AutoCompleteTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar"
+        android:layout_marginTop="25dp"
+        android:id="@+id/search"
+        android:inputType="textAutoComplete"/>
+
+    <ImageButton
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_search"
+        android:layout_below="@id/toolbar"
+        android:layout_marginTop="25dp"
+        android:layout_alignParentRight="true" />
+
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/list"
+        android:textSize="20dp"
+        android:layout_below="@id/search"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Submit"
+        android:layout_below="@id/list"
+        android:padding="10dp"
+        android:textSize="15dp"
+        android:id="@+id/submit"
+        android:textColor="@color/grayDD"
+        android:background="@drawable/mybutton"/>
+    <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerInParent="true"-->
+        <!--android:text="Request"-->
+        <!--android:layout_below="@id/submit"-->
+        <!--android:padding="10dp"-->
+        <!--android:textSize="15dp"-->
+        <!--android:id="@+id/Request"-->
+        <!--android:textColor="@color/grayDD"-->
+        <!--android:background="@drawable/mybutton"/>-->
+
+</RelativeLayout>

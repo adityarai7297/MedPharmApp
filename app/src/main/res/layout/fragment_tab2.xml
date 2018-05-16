@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <!--<Button-->
+        <!--android:id="@+id/tabLoginButton"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Login"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:layout_marginTop="150dp"-->
+        <!--android:onClick="tabLoginButtonClick"/>-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please Login to Access this Feature!"
+        android:layout_marginTop="150dp"
+        android:textSize="23dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"/>
+
+
+</LinearLayout>

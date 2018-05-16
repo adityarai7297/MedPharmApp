@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "187944820439",
+    "firebase_url": "https://medpharmfinal.firebaseio.com",
+    "project_id": "medpharmfinal",
+    "storage_bucket": "medpharmfinal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:187944820439:android:269db169106cccec",
+        "android_client_info": {
+          "package_name": "com.example.android.medpharm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "187944820439-n01vpdaouaqcu1mbih58pbukld0rtofk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.medpharm",
+            "certificate_hash": "26b5325372098f1e7f323ac1286ad7d00a225126"
+          }
+        },
+        {
+          "client_id": "187944820439-scphangaf8ghlgm9s53c46fjimtndvhn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHuXlxCrzfBgFlGgnCV_hIZTp0h9d0JQ0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "187944820439-scphangaf8ghlgm9s53c46fjimtndvhn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

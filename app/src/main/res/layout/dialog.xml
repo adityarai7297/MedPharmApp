@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tabsyr"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tablet"
+                android:fontFamily="@font/abhaya_libre"
+                android:id="@+id/tab"
+                android:textSize="20dp"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Syrup"
+                android:fontFamily="@font/abhaya_libre"
+                android:textSize="20dp"
+                android:id="@+id/syr"
+                android:layout_marginLeft="15dp"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cream"
+                android:fontFamily="@font/abhaya_libre"
+                android:id="@+id/crm"
+                android:textSize="20dp"
+                android:layout_marginLeft="15dp"/>
+        </RadioGroup>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="15dp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"
+            android:layout_below="@id/tabsyr"
+            android:textStyle="bold"
+            android:text="Dosage :"
+            android:textSize="20dp"
+            android:fontFamily="@font/abhaya_libre"/>
+        <NumberPicker
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_below="@id/tabsyr"
+            android:layout_marginLeft="220dp"
+            android:layout_gravity="right"
+            android:id="@+id/dosage">
+        </NumberPicker>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:padding="5dp"
+            android:layout_below="@id/dosage"
+            android:textStyle="bold"
+            android:text="No. of times in a day :"
+            android:textSize="20dp"
+            android:fontFamily="@font/abhaya_libre"/>
+        <NumberPicker
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dosage"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="220dp"
+            android:layout_gravity="right"
+            android:id="@+id/count">
+        </NumberPicker>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="15dp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"
+            android:textStyle="bold"
+            android:layout_below="@id/count"
+            android:text="Potency :"
+            android:textSize="20dp"
+            android:fontFamily="@font/abhaya_libre"/>
+        <EditText
+            android:id="@+id/mg"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:ems="10"
+            android:layout_below="@id/count"
+            android:inputType="number"
+            android:layout_alignParentRight="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/mg"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15sp"
+            android:text="Add Medicine"
+            android:id="@+id/but"
+            android:padding="5dp"
+            android:layout_marginLeft="150dp"
+            android:textSize="15dp"
+            android:background="@drawable/mybutton"/>
+    </RelativeLayout>
+
+</ScrollView>

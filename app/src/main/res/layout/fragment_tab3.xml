@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="120dp"
+            android:fontFamily="@font/abhaya_libre"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="7 Myths about Medication and the Facts behind them!"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/allan_bold"
+            android:padding="10dp"
+            android:text="1. If you’re really hurting, you can ignore the label and take more pills."
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/advent_pro_medium"
+            android:padding="10dp"
+            android:text="Fact : When you’re in severe pain, you may look at the dose on the pain reliever label and think, “an extra dose can’t possibly hurt me.” But the truth is, yes, it can. The recommended dose of an over-the-counter (OTC) or prescription drug isn’t just a suggestion — it’s a careful calculation. Pharmaceutical companies work hard to develop the appropriate dose of each and every medicine."
+            android:textSize="15dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/allan_bold"
+            android:padding="10dp"
+            android:text="2. Once you feel better, you don’t have to keep taking medication."
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/advent_pro_medium"
+            android:padding="10dp"
+            android:text="Fact : If your symptoms are gone but you have a week left on your medication, you may be tempted to stop taking the pesky pills. However, if you stop taking your medication early, it can increase your chance of relapsing into illness."
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/allan_bold"
+            android:padding="10dp"
+            android:text="3. Natural supplements are always a safer choice."
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/advent_pro_medium"
+            android:padding="10dp"
+            android:text="Fact : Natural supplements may seem safer and healthier than medications. But since the standards for supplements are not as strict, the amount of each ingredient may vary between products. Potential side effects may not be mentioned on the label."
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/allan_bold"
+            android:padding="10dp"
+            android:text="4. Antibiotics are the answer for every illness."
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/advent_pro_medium"
+            android:padding="10dp"
+            android:text="Fact : Antibiotics are only helpful in illnesses caused by bacteria, such as Strep throat. Most illnesses, like colds and sore throats, are caused by viruses that don’t respond at all to antibiotics. Even though you’re feeling miserable, OTC medications will usually relieve your symptoms until the virus is gone. Ask your doctor or pharmacist about which ones are safe to take — if you have hypertension, for example, Sudafed® (pseudoephedrine) can elevate your blood pressure."
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/allan_bold"
+            android:padding="10dp"
+            android:text="5. Your doctor doesn’t need to know which vitamins you take."
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/advent_pro_medium"
+            android:padding="10dp"
+            android:text="Fact : When prescribing a new medication or suggesting an OTC remedy, your doctor needs to know about all the OTC and prescription medications, vitamins and supplements you are taking. This helps your doctor ensure that any new medication will not interact with your current regimen in a dangerous way. Some medications, vitamins or supplements can hinder the way your body absorbs, breaks down and eliminates medicine."
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/allan_bold"
+            android:padding="10dp"
+            android:text="6.  It’s best to keep medication handy, by the bathroom or kitchen sink."
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/advent_pro_medium"
+            android:padding="10dp"
+            android:text="Fact : Putting medications where you’ll see them every day may seem like a good way to remember to take them. However, storing medications and supplements by a bathroom or kitchen sink exposes them to damage from dampness and light. Unless you’re told otherwise, store medications in a dry area, away from heat and direct light. Store them in the original container or in a pill box that can’t be opened by little hands. And always keep medications and supplements where children and pets can’t reach them."
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/allan_bold"
+            android:padding="10dp"
+            android:text="7. It doesn’t matter how you swallow a pill as long as it gets where it needs to go."
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/advent_pro_medium"
+            android:padding="10dp"
+            android:text="Fact : Pills should always be taken with water. Taking pills with alcohol is especially harmful, as alcohol can seriously interfere with the way your body absorbs medication. Rather than taking a sip and then throwing back the pill, swallow enough water to keep the pill from dissolving before it reaches your stomach. This will avoid irritating your throat. And always check whether to take medication on a full versus an empty stomach."
+            android:textSize="15dp" />
+    </LinearLayout>
+
+
+
+</ScrollView>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/abhaya_libre</item>
+        <item>@font/acme</item>
+        <item>@font/advent_pro_medium</item>
+        <item>@font/aguafina_script</item>
+        <item>@font/allan_bold</item>
+        <item>@font/aref_ruqaa</item>
+        <item>@font/aref_ruqaa_bold</item>
+        <item>@font/hammersmith_one</item>
+    </array>
+</resources>
